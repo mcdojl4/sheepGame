@@ -441,52 +441,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 30, y: -45, z: 0}
---- !u!1 &564879502
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 564879503}
-  - component: {fileID: 564879504}
-  m_Layer: 0
-  m_Name: Hay bale
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &564879503
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 564879502}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &564879504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 564879502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3ba59265328dc447ae601aea41c013f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: {x: 0, y: 0, z: 20}
-  space: 0
 --- !u!1 &721670646 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6020313712292669828, guid: c91d458c12526534eb19d65378204353,
@@ -507,7 +461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 14
   horizontalBoundary: 22
-  hayBalePrefab: {fileID: 4565409574319320794, guid: 9c1d3d156161d4143a09741631d8a0af,
+  hayBalePrefab: {fileID: 7394155065621189833, guid: 9f3b369d0edede249b1941f5f33868dc,
     type: 3}
   haySpawnpoint: {fileID: 284352298}
   shootInterval: 0.8
@@ -865,7 +819,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.5, y: 2, z: 4}
-  m_Center: {x: 0, y: 14, z: -0.3}
+  m_Center: {x: 0, y: 1.4, z: -0.3}
 --- !u!4 &1854073999
 Transform:
   m_ObjectHideFlags: 0
@@ -880,7 +834,7 @@ Transform:
   m_Children:
   - {fileID: 922023829}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &1967975705
 GameObject:
@@ -913,7 +867,7 @@ Transform:
   - {fileID: 1270023756}
   - {fileID: 1228736442}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2082658922
 PrefabInstance:
